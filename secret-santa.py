@@ -1,30 +1,30 @@
 # Définition de quelques participants
 # Utilisation de variables pour stocker des informations simples
-participant1_name = "Alice"
-participant1_email = "alice@example.com"
+player1_name = "Alice"
+player1_email = "alice@example.com"
 
-participant2_name = "Bob"
-participant2_email = "bob@example.com"
+player2_name = "Bob"
+player2_email = "bob@example.com"
 
 # Calcul simple pour montrer l'utilisation des types numériques
-number_of_participants = 2
+number_of_players = 2
 print("Nombre de participants :")
-print(number_of_participants)
+print(number_of_players)
 
 # Affichage des informations des participants
 print("--------------- PARTICIPANTS ---------------")
-print(participant1_name)
-print(participant1_email)
+print(player1_name)
+print(player1_email)
 
-print(participant2_name)
-print(participant2_email)
+print(player2_name)
+print(player2_email)
 print("--------------------------------------------")
 
 # Assignation manuelle
-cadeau_de_Alice = "Bob"  # Alice offre un cadeau à Bob
-cadeau_de_Bob = "Alice"  # Bob offre un cadeau à Alice
+player1_result = player2_name  # Alice offre un cadeau à Bob
+player2_result = player1_name  # Bob offre un cadeau à Alice
 
 # Affichage des paires Secret Santa
 print("Résultat du tirage :")
-print(participant1_name, "offre un cadeau à", cadeau_de_Alice)
-print(participant2_name, "offre un cadeau à", cadeau_de_Bob)
+print(player1_name, "offre un cadeau à", player1_result)
+print(player2_name, "offre un cadeau à", player2_result)
